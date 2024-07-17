@@ -1,0 +1,27 @@
+header{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f232a;
+    ul{
+        display: flex;
+        gap: 30px;
+        color: white;
+    }
+    .logo{
+        display: flex;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        color: #3A68B8;
+        .logopic{
+            background-image: url(../assets/logo.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
