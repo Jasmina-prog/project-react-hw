@@ -12,9 +12,9 @@ function Cards(){
     return(
         <div className="cards">
             {
-                cardData.map((el)=>{
+                cardData.map((el, id)=>{
                     return(
-                        <Card title={el.title}/>
+                        <Card title={el.title} key={id}/>
                     )
                 })
             }

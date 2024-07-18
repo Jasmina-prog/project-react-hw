@@ -1,5 +1,6 @@
 
 .showcase{
+    width: 100%;
     background-color: #121828;
     color: white;
     display: flex;
@@ -24,5 +25,18 @@
     .btns{
         display: flex;
         gap: 30px;
+    }
+}
+
+
+@media(max-width:1150px){
+    .showcase{
+        flex-wrap: wrap;
+        .showcasepic{
+            width: 70%;
+        }
+        .showcasetext{
+            width: 70%;
+        }
     }
 }
